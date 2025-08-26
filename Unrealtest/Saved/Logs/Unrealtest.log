@@ -907,3 +907,759 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.08.26-18.41.24:304][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultPostProcessMaterial because of a recursive sync load
 [2025.08.26-18.41.24:304][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
 [2025.08.26-18.41.26:585][  0]LogTurnkeySupport: Completed device detection: Code = 0
+[2025.08.26-18.42.10:250][  0]LogShaderCompilers: Display: Job FRayTracingLightingMS(permutation 0, format PCD3D_SM6) compile time exceeded threshold (40.198s)
+[2025.08.26-18.42.11:665][  0]LogShaderCompilers: Display: Job FRayTracingSkyLightRGS(permutation 1, format PCD3D_SM6) compile time exceeded threshold (39.611s)
+[2025.08.26-18.43.05:088][  0]LogMaterial: Display: Missing cached shadermap for DefaultPostProcessMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 7b3849e041e042c2d69e2fd1a1d562246980f57f), compiling. 
+[2025.08.26-18.43.07:009][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultDeferredDecalMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultLightFunctionMaterial because of a recursive sync load
+[2025.08.26-18.43.07:009][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.08.26-18.43.07:026][  0]LogMaterial: Display: Missing cached shadermap for DefaultLightFunctionMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: a1dd5b7852dc0a5f9082d4bc5d1abe3b1f034d2f), compiling. 
+[2025.08.26-18.43.10:286][  0]LogStreaming: Display: Package /Engine/EngineMaterials/WorldGridMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultDeferredDecalMaterial because of a recursive sync load
+[2025.08.26-18.43.10:286][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.08.26-18.43.10:304][  0]LogMaterial: Display: Missing cached shadermap for DefaultDeferredDecalMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 79d82eb5dade8c108ba0f32c72ae1e4f7685a981), compiling. 
+[2025.08.26-18.43.14:606][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/EngineMaterials/WorldGridMaterial because of a recursive sync load
+[2025.08.26-18.43.14:606][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.08.26-18.43.14:736][  0]LogMaterial: Display: Missing cached shadermap for WorldGridMaterial in PCD3D_SM6, Default, SM6, Editor (DDC key hash: 8988d0adbbe89216f34bb6f6619773775fe5b7c0), compiling. Is special engine material.
+[2025.08.26-18.43.21:536][  0]LogDerivedDataCache: C:/Users/mmaub/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.002 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.08.26-18.43.55:832][  0]LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2025.08.26-18.43.55:832][  0]LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2025.08.26-18.43.55:832][  0]LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+[2025.08.26-18.43.55:833][  0]LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2025.08.26-18.43.55:833][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2025.08.26-18.43.55:836][  0]LogStaticMesh: Display: Building static mesh MatineeCam_SM (Required Memory Estimate: 6.455061 MB)...
+[2025.08.26-18.43.55:857][  0]LogStaticMesh: Built static mesh [0.02s] /Engine/EditorMeshes/MatineeCam_SM.MatineeCam_SM
+[2025.08.26-18.43.55:937][  0]LogStaticMesh: Display: Building static mesh Sphere (Required Memory Estimate: 0.756426 MB)...
+[2025.08.26-18.43.55:941][  0]LogStaticMesh: Built static mesh [0.00s] /Engine/EngineMeshes/Sphere.Sphere
+[2025.08.26-18.43.55:978][  0]LogStaticMesh: Display: Building static mesh EditorCube (Required Memory Estimate: 0.02689 MB)...
+[2025.08.26-18.43.55:979][  0]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/EditorCube.EditorCube
+[2025.08.26-18.43.55:983][  0]LogStaticMesh: Display: Building static mesh EditorSphere (Required Memory Estimate: 6.269289 MB)...
+[2025.08.26-18.43.56:000][  0]LogStaticMesh: Built static mesh [0.02s] /Engine/EditorMeshes/EditorSphere.EditorSphere
+[2025.08.26-18.43.56:006][  0]LogStaticMesh: Display: Building static mesh EditorCylinder (Required Memory Estimate: 0.714823 MB)...
+[2025.08.26-18.43.56:010][  0]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/EditorCylinder.EditorCylinder
+[2025.08.26-18.43.56:013][  0]LogStaticMesh: Display: Building static mesh EditorPlane (Required Memory Estimate: 0.05422 MB)...
+[2025.08.26-18.43.56:014][  0]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/EditorPlane.EditorPlane
+[2025.08.26-18.43.56:023][  0]LogStaticMesh: Display: Building static mesh EditorSkySphere (Required Memory Estimate: 7.540967 MB)...
+[2025.08.26-18.43.56:042][  0]LogStaticMesh: Built static mesh [0.02s] /Engine/EditorMeshes/EditorSkySphere.EditorSkySphere
+[2025.08.26-18.43.56:080][  0]LogStaticMesh: Display: Building static mesh SM_Sequencer_Node (Required Memory Estimate: 0.08356 MB)...
+[2025.08.26-18.43.56:091][  0]LogStaticMesh: Built static mesh [0.01s] /Engine/VREditor/TransformGizmo/SM_Sequencer_Node.SM_Sequencer_Node
+[2025.08.26-18.43.56:110][  0]LogStaticMesh: Display: Building static mesh SM_CraneRig_Base (Required Memory Estimate: 1.522692 MB)...
+[2025.08.26-18.43.56:121][  0]LogStaticMesh: Built static mesh [0.01s] /Engine/EditorMeshes/Camera/SM_CraneRig_Base.SM_CraneRig_Base
+[2025.08.26-18.43.56:124][  0]LogStaticMesh: Display: Building static mesh SM_CraneRig_Arm (Required Memory Estimate: 0.0249 MB)...
+[2025.08.26-18.43.56:129][  0]LogStaticMesh: Built static mesh [0.01s] /Engine/EditorMeshes/Camera/SM_CraneRig_Arm.SM_CraneRig_Arm
+[2025.08.26-18.43.56:132][  0]LogStaticMesh: Display: Building static mesh SM_CraneRig_Mount (Required Memory Estimate: 0.292356 MB)...
+[2025.08.26-18.43.56:135][  0]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/Camera/SM_CraneRig_Mount.SM_CraneRig_Mount
+[2025.08.26-18.43.56:138][  0]LogStaticMesh: Display: Building static mesh SM_CraneRig_Body (Required Memory Estimate: 1.454466 MB)...
+[2025.08.26-18.43.56:152][  0]LogStaticMesh: Built static mesh [0.01s] /Engine/EditorMeshes/Camera/SM_CraneRig_Body.SM_CraneRig_Body
+[2025.08.26-18.43.56:156][  0]LogStaticMesh: Display: Building static mesh SM_RailRig_Track (Required Memory Estimate: 2.117645 MB)...
+[2025.08.26-18.43.56:167][  0]LogStaticMesh: Built static mesh [0.01s] /Engine/EditorMeshes/Camera/SM_RailRig_Track.SM_RailRig_Track
+[2025.08.26-18.43.56:172][  0]LogStaticMesh: Display: Building static mesh SM_RailRig_Mount (Required Memory Estimate: 2.380135 MB)...
+[2025.08.26-18.43.56:203][  0]LogStaticMesh: Built static mesh [0.03s] /Engine/EditorMeshes/Camera/SM_RailRig_Mount.SM_RailRig_Mount
+[2025.08.26-18.43.56:223][  0]LogStaticMesh: Display: Building static mesh SplineEditorMesh (Required Memory Estimate: 0.094715 MB)...
+[2025.08.26-18.43.56:224][  0]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorLandscapeResources/SplineEditorMesh.SplineEditorMesh
+[2025.08.26-18.43.56:273][  0]LogStaticMesh: Display: Building static mesh Cube (Required Memory Estimate: 0.083707 MB)...
+[2025.08.26-18.43.56:275][  0]LogStaticMesh: Built static mesh [0.00s] /Engine/BasicShapes/Cube.Cube
+[2025.08.26-18.43.56:313][  0]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave Drop_Item_From_ContentBrowser...
+[2025.08.26-18.43.56:321][  0]LogAudioDerivedData: Display: Drop_Item_From_ContentBrowser compressed to 7.28% (from 192KB to 14KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2025.08.26-18.43.56:321][  0]LogAudio: Display: Chunk stats for (SoundWave /Engine/VREditor/Sounds/UI/Drop_Item_From_ContentBrowser.Drop_Item_From_ContentBrowser: Duration=1.02 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=14355 bytes, ChunkN=0)
+[2025.08.26-18.43.56:324][  0]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave Gizmo_Handle_Clicked...
+[2025.08.26-18.43.56:343][  0]LogAudioDerivedData: Display: Gizmo_Handle_Clicked compressed to 6.69% (from 190KB to 12KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2025.08.26-18.43.56:343][  0]LogAudio: Display: Chunk stats for (SoundWave /Engine/VREditor/Sounds/UI/Gizmo_Handle_Clicked.Gizmo_Handle_Clicked: Duration=1.01 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=13051 bytes, ChunkN=0)
+[2025.08.26-18.43.56:346][  0]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave Object_PickUp...
+[2025.08.26-18.43.56:354][  0]LogAudioDerivedData: Display: Object_PickUp compressed to 8.12% (from 160KB to 13KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2025.08.26-18.43.56:355][  0]LogAudio: Display: Chunk stats for (SoundWave /Engine/VREditor/Sounds/UI/Object_PickUp.Object_PickUp: Duration=0.85 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=13299 bytes, ChunkN=0)
+[2025.08.26-18.43.56:358][  0]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave Object_Snaps_To_Another_Actor...
+[2025.08.26-18.43.56:366][  0]LogAudioDerivedData: Display: Object_Snaps_To_Another_Actor compressed to 6.88% (from 201KB to 13KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2025.08.26-18.43.56:367][  0]LogAudio: Display: Chunk stats for (SoundWave /Engine/VREditor/Sounds/UI/Object_Snaps_To_Another_Actor.Object_Snaps_To_Another_Actor: Duration=1.07 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=14169 bytes, ChunkN=0)
+[2025.08.26-18.43.56:370][  0]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave Object_Snaps_To_Grid...
+[2025.08.26-18.43.56:378][  0]LogAudioDerivedData: Display: Object_Snaps_To_Grid compressed to 5.50% (from 215KB to 11KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2025.08.26-18.43.56:379][  0]LogAudio: Display: Chunk stats for (SoundWave /Engine/VREditor/Sounds/UI/Object_Snaps_To_Grid.Object_Snaps_To_Grid: Duration=1.15 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=12121 bytes, ChunkN=0)
+[2025.08.26-18.43.56:382][  0]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave Scaling_Down...
+[2025.08.26-18.43.56:397][  0]LogAudioDerivedData: Display: Scaling_Down compressed to 5.72% (from 177KB to 10KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2025.08.26-18.43.56:397][  0]LogAudio: Display: Chunk stats for (SoundWave /Engine/VREditor/Sounds/UI/Scaling_Down.Scaling_Down: Duration=0.94 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=10363 bytes, ChunkN=0)
+[2025.08.26-18.43.56:400][  0]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave Scaling_Up...
+[2025.08.26-18.43.56:409][  0]LogAudioDerivedData: Display: Scaling_Up compressed to 6.05% (from 162KB to 9KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2025.08.26-18.43.56:410][  0]LogAudio: Display: Chunk stats for (SoundWave /Engine/VREditor/Sounds/UI/Scaling_Up.Scaling_Up: Duration=0.87 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=10083 bytes, ChunkN=0)
+[2025.08.26-18.43.56:413][  0]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_48000.000000_SR1_32000.000000_SR2_24000.000000_SR3_12000.000000_SR4_8000.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_LCK1_0.000000_CSZE_65536_LCF_false_ZCS_256_MCSO_0_END wave Selection_Changes...
+[2025.08.26-18.43.56:429][  0]LogAudioDerivedData: Display: Selection_Changes compressed to 3.10% (from 190KB to 5KB) with BINKA at Quality 80 with Quality Modifier 1.00
+[2025.08.26-18.43.56:430][  0]LogAudio: Display: Chunk stats for (SoundWave /Engine/VREditor/Sounds/UI/Selection_Changes.Selection_Changes: Duration=1.01 secs, Channels=2), Settings(FirstChunkSize=4294967295 frames, InlineFirst=false, MaxChunkSize=262144), Chunks=2, Chunk0=28 bytes, Chunk1=6043 bytes, ChunkN=0)
+[2025.08.26-18.43.56:452][  0]LogStaticMesh: Display: Building static mesh SnapGridPlaneMesh (Required Memory Estimate: 0.059454 MB)...
+[2025.08.26-18.43.56:455][  0]LogStaticMesh: Built static mesh [0.00s] /Engine/VREditor/SnapGrid/SnapGridPlaneMesh.SnapGridPlaneMesh
+[2025.08.26-18.43.56:464][  0]LogStaticMesh: Display: Building static mesh PlaneTranslationHandle (Required Memory Estimate: 0.189357 MB)...
+[2025.08.26-18.43.56:470][  0]LogStaticMesh: Built static mesh [0.01s] /Engine/VREditor/TransformGizmo/PlaneTranslationHandle.PlaneTranslationHandle
+[2025.08.26-18.43.56:477][  0]LogStaticMesh: Display: Building static mesh RotationHandleFull (Required Memory Estimate: 6.20107 MB)...
+[2025.08.26-18.43.56:542][  0]LogStaticMesh: Built static mesh [0.07s] /Engine/VREditor/TransformGizmo/RotationHandleFull.RotationHandleFull
+[2025.08.26-18.43.56:548][  0]LogStaticMesh: Display: Building static mesh RotationHandleIndicator (Required Memory Estimate: 0.419229 MB)...
+[2025.08.26-18.43.56:555][  0]LogStaticMesh: Built static mesh [0.01s] /Engine/VREditor/TransformGizmo/RotationHandleIndicator.RotationHandleIndicator
+[2025.08.26-18.43.56:560][  0]LogStaticMesh: Display: Building static mesh RotationHandleQuarter (Required Memory Estimate: 1.44741 MB)...
+[2025.08.26-18.43.56:578][  0]LogStaticMesh: Built static mesh [0.02s] /Engine/VREditor/TransformGizmo/RotationHandleQuarter.RotationHandleQuarter
+[2025.08.26-18.43.56:583][  0]LogStaticMesh: Display: Building static mesh StartRotationHandleIndicator (Required Memory Estimate: 0.830293 MB)...
+[2025.08.26-18.43.56:594][  0]LogStaticMesh: Built static mesh [0.01s] /Engine/VREditor/TransformGizmo/StartRotationHandleIndicator.StartRotationHandleIndicator
+[2025.08.26-18.43.56:599][  0]LogStaticMesh: Display: Building static mesh TransformGizmoFreeRotation (Required Memory Estimate: 43.612814 MB)...
+[2025.08.26-18.43.57:200][  0]LogStaticMesh: Built static mesh [0.60s] /Engine/VREditor/TransformGizmo/TransformGizmoFreeRotation.TransformGizmoFreeRotation
+[2025.08.26-18.43.57:246][  0]LogStaticMesh: Display: Building static mesh TranslateArrowHandle (Required Memory Estimate: 0.240406 MB)...
+[2025.08.26-18.43.57:264][  0]LogStaticMesh: Built static mesh [0.02s] /Engine/VREditor/TransformGizmo/TranslateArrowHandle.TranslateArrowHandle
+[2025.08.26-18.43.57:268][  0]LogStaticMesh: Display: Building static mesh UniformScaleHandle (Required Memory Estimate: 0.140998 MB)...
+[2025.08.26-18.43.57:286][  0]LogStaticMesh: Built static mesh [0.02s] /Engine/VREditor/TransformGizmo/UniformScaleHandle.UniformScaleHandle
+[2025.08.26-18.43.57:296][  0]LogStaticMesh: Display: Building static mesh BoundingBoxCorner (Required Memory Estimate: 0.240406 MB)...
+[2025.08.26-18.43.57:306][  0]LogStaticMesh: Built static mesh [0.01s] /Engine/VREditor/TransformGizmo/BoundingBoxCorner.BoundingBoxCorner
+[2025.08.26-18.43.57:315][  0]LogStaticMesh: Display: Building static mesh BoundingBoxEdge (Required Memory Estimate: 0.08356 MB)...
+[2025.08.26-18.43.57:319][  0]LogStaticMesh: Built static mesh [0.01s] /Engine/VREditor/TransformGizmo/BoundingBoxEdge.BoundingBoxEdge
+[2025.08.26-18.43.57:334][  0]LogStaticMesh: Display: Building static mesh SM_CineCam (Required Memory Estimate: 8.902487 MB)...
+[2025.08.26-18.43.57:527][  0]LogStaticMesh: Built static mesh [0.19s] /Engine/EditorMeshes/Camera/SM_CineCam.SM_CineCam
+[2025.08.26-18.43.57:531][  0]LogStaticMesh: Display: Building static mesh S_1_Unit_Plane (Required Memory Estimate: 0.054254 MB)...
+[2025.08.26-18.43.57:532][  0]LogStaticMesh: Built static mesh [0.00s] /Engine/ArtTools/RenderToTexture/Meshes/S_1_Unit_Plane.S_1_Unit_Plane
+[2025.08.26-18.43.57:538][  0]LogConfig: Applying CVar settings from Section [/Script/CQTest.CQTestSettings] File [Engine]
+[2025.08.26-18.43.57:573][  0]LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2025.08.26-18.43.57:573][  0]LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2025.08.26-18.43.57:573][  0]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: NetActorFactory name: NetActorFactory id: 0
+[2025.08.26-18.43.57:573][  0]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: NetSubObjectFactory name: NetSubObjectFactory id: 1
+[2025.08.26-18.43.57:576][  0]LogLiveCoding: Display: Starting LiveCoding
+[2025.08.26-18.43.57:576][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: UnrealEditor Win64 Development
+[2025.08.26-18.43.57:578][  0]LogLiveCoding: Display: First instance in process group "UE_Unrealtest_0xc6898294", spawning console
+[2025.08.26-18.43.57:593][  0]LogLiveCoding: Display: Waiting for server
+[2025.08.26-18.43.57:596][  0]LogSlate: Border
+[2025.08.26-18.43.57:596][  0]LogSlate: BreadcrumbButton
+[2025.08.26-18.43.57:596][  0]LogSlate: Brushes.Title
+[2025.08.26-18.43.57:596][  0]LogSlate: ColorPicker.ColorThemes
+[2025.08.26-18.43.57:596][  0]LogSlate: Default
+[2025.08.26-18.43.57:596][  0]LogSlate: Icons.Save
+[2025.08.26-18.43.57:596][  0]LogSlate: Icons.Toolbar.Settings
+[2025.08.26-18.43.57:596][  0]LogSlate: ListView
+[2025.08.26-18.43.57:596][  0]LogSlate: SoftwareCursor_CardinalCross
+[2025.08.26-18.43.57:596][  0]LogSlate: SoftwareCursor_Grab
+[2025.08.26-18.43.57:596][  0]LogSlate: TableView.DarkRow
+[2025.08.26-18.43.57:596][  0]LogSlate: TableView.Row
+[2025.08.26-18.43.57:596][  0]LogSlate: TreeView
+[2025.08.26-18.43.57:687][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2025.08.26-18.43.57:690][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 2.585 ms
+[2025.08.26-18.43.57:715][  0]LogInit: XR: Instanced Stereo Rendering is Disabled
+[2025.08.26-18.43.57:717][  0]LogInit: XR: MultiViewport is Disabled
+[2025.08.26-18.43.57:717][  0]LogInit: XR: Mobile Multiview is Disabled
+[2025.08.26-18.43.57:729][  0]LogTurnkeySupport: Turnkey Device: Win64@Aub12: (Name=Aub12, Type=Computer, Status=Valid, MinAllowed=10.0.19041.0, MaxAllowed=, Current=10.0.26100.0, Flags="Device_InstallSoftwareValid")
+[2025.08.26-18.43.57:742][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2025.08.26-18.43.57:858][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2025.08.26-18.43.57:858][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2025.08.26-18.43.57:876][  0]LogMetaSound: MetaSound Engine Initialized
+[2025.08.26-18.43.58:247][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 8E61BF081EDE48178000000000008800 | Instance: 4D783DE048D883C465D459AE96CE1DF9 (AUB12-5444).
+[2025.08.26-18.43.58:287][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2025.08.26-18.43.58:308][  0]LogUdpMessaging: Display: Work queue size set to 1024.
+[2025.08.26-18.43.58:308][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2025.08.26-18.43.58:308][  0]LogUdpMessaging: Display: Unicast socket bound to '0.0.0.0:63921'.
+[2025.08.26-18.43.58:312][  0]LogUdpMessaging: Display: Added local interface '10.186.54.2' to multicast group '230.0.0.1:6666'
+[2025.08.26-18.43.58:316][  0]LogUdpMessaging: Display: Using asynchronous task graph for message deserialization.
+[2025.08.26-18.43.58:415][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2025.08.26-18.43.58:415][  0]LogNNERuntimeORT: Selecting NPU adapter: Intel(R) Iris(R) Xe Graphics
+[2025.08.26-18.43.58:493][  0]LogNNERuntimeORT: MakeRuntimeORTDml:
+[2025.08.26-18.43.58:493][  0]LogNNERuntimeORT:   DirectML:  yes
+[2025.08.26-18.43.58:493][  0]LogNNERuntimeORT:   RHI D3D12: yes
+[2025.08.26-18.43.58:493][  0]LogNNERuntimeORT:   D3D12:     yes
+[2025.08.26-18.43.58:493][  0]LogNNERuntimeORT:   NPU:       yes
+[2025.08.26-18.43.58:494][  0]LogNNERuntimeORT: Interface availability:
+[2025.08.26-18.43.58:494][  0]LogNNERuntimeORT:   GPU: yes
+[2025.08.26-18.43.58:494][  0]LogNNERuntimeORT:   RDG: yes
+[2025.08.26-18.43.58:494][  0]LogNNERuntimeORT:   NPU: yes
+[2025.08.26-18.43.58:574][  0]LogNNERuntimeORT: Available graphics and compute adapters:
+[2025.08.26-18.43.58:574][  0]LogNNERuntimeORT: Selecting NPU adapter: Intel(R) Iris(R) Xe Graphics
+[2025.08.26-18.43.58:750][  0]LogChaosVDEditor: [FChaosVDExtensionsManager::RegisterExtension] Registering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2025.08.26-18.43.58:750][  0]LogChaosVDEditor: [FChaosVDExtensionsManager::RegisterExtension] Registering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2025.08.26-18.43.58:761][  0]LogTimingProfiler: Initialize
+[2025.08.26-18.43.58:761][  0]LogTimingProfiler: OnSessionChanged
+[2025.08.26-18.43.58:762][  0]LoadingProfiler: Initialize
+[2025.08.26-18.43.58:762][  0]LoadingProfiler: OnSessionChanged
+[2025.08.26-18.43.58:762][  0]LogNetworkingProfiler: Initialize
+[2025.08.26-18.43.58:762][  0]LogNetworkingProfiler: OnSessionChanged
+[2025.08.26-18.43.58:762][  0]LogMemoryProfiler: Initialize
+[2025.08.26-18.43.58:762][  0]LogMemoryProfiler: OnSessionChanged
+[2025.08.26-18.43.58:845][  0]LogStaticMesh: Display: Building static mesh SM_MediaPlateScreen (Required Memory Estimate: 0.010915 MB)...
+[2025.08.26-18.43.58:864][  0]LogStaticMesh: Built static mesh [0.02s] /MediaPlate/SM_MediaPlateScreen.SM_MediaPlateScreen
+[2025.08.26-18.43.58:949][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2025.08.26-18.43.58:971][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.08.26-18.43.58:971][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.08.26-18.43.59:129][  0]SourceControl: Revision control is disabled
+[2025.08.26-18.43.59:141][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Icons/doc_16x.png' error.
+[2025.08.26-18.43.59:141][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Icons/doc_16x.png] file: [../../../Engine/Content/Slate/Icons/doc_16x.png]
+[2025.08.26-18.43.59:141][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Common/ButtonHoverHint.png' error.
+[2025.08.26-18.43.59:141][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png] file: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png]
+[2025.08.26-18.43.59:148][  0]SourceControl: Revision control is disabled
+[2025.08.26-18.43.59:215][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2025.08.26-18.43.59:411][  0]LogConfig: Applying CVar settings from Section [/Script/NNEDenoiser.NNEDenoiserSettings] File [Engine]
+[2025.08.26-18.43.59:433][  0]LogCollectionManager: Loaded 0 collections in 0.001572 seconds
+[2025.08.26-18.43.59:438][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Collections/' took 0.00s
+[2025.08.26-18.43.59:446][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Content/Developers/mmaub/Collections/' took 0.01s
+[2025.08.26-18.43.59:449][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Content/Collections/' took 0.00s
+[2025.08.26-18.43.59:502][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png' error.
+[2025.08.26-18.43.59:502][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png] file: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png]
+[2025.08.26-18.43.59:502][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png' error.
+[2025.08.26-18.43.59:502][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png] file: [../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png]
+[2025.08.26-18.43.59:550][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Icons/doc_16x.png' error.
+[2025.08.26-18.43.59:550][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Icons/doc_16x.png] file: [../../../Engine/Content/Slate/Icons/doc_16x.png]
+[2025.08.26-18.43.59:550][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Common/ButtonHoverHint.png' error.
+[2025.08.26-18.43.59:550][  0]LogSlate: Could not load file for Slate resource: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png] file: [../../../Engine/Content/Slate/Common/ButtonHoverHint.png]
+[2025.08.26-18.43.59:564][  0]LogEOSSDK: LogEOS: [Boot] EOSSDK Version 1.17.0-41373641 booting at 2025-08-26T18:43:59.563Z using C
+[2025.08.26-18.43.59:564][  0]LogEOSSDK: LogEOS: [Boot] EOSSDK Platform Properties [OS=Windows/10.0.26100.4768.64bit, ClientId=xyza7891REBVsEqSJRRNXmlS7EQHM459, ProductId=86f32f1151354e7cb39c12f8ab2c22a3, SandboxId=a01927f7421a4d4995673fe30ef46945, DeploymentId=a652a72ea1664dcab3a467891eea5f30, ProductName=Unrealtest, ProductVersion=++UE5+Release-5.6-CL-44394996, IsServer=false, Flags=DisableOverlay]
+[2025.08.26-18.43.59:564][  0]LogEOSSDK: LogEOSAnalytics: Start Session (User: ...)
+[2025.08.26-18.43.59:564][  0]LogEOSSDK: LogEOSOverlay: Overlay will not load, because it was explicitly disabled when creating the platform
+[2025.08.26-18.43.59:569][  0]LogEOSSDK: LogEOSAntiCheat: [AntiCheatClient] Anti-cheat client not available. Verify that the game was started using the anti-cheat bootstrapper if you intend to use it.
+[2025.08.26-18.43.59:569][  0]LogEOSSDK: LogEOS: SetApplicationStatus - OldStatus: EOS_AS_Foreground, NewStatus: EOS_AS_Foreground, Current Time: 0001.01.01-00.00.00
+[2025.08.26-18.43.59:569][  0]LogEOSSDK: LogEOS: SetNetworkStatus - OldStatus: EOS_NS_Online, NewStatus: EOS_NS_Online
+[2025.08.26-18.43.59:569][  0]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 0.000059
+[2025.08.26-18.43.59:611][  0]LogUObjectArray: 42347 objects as part of root set at end of initial load.
+[2025.08.26-18.43.59:611][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2025.08.26-18.43.59:982][  0]LogEngine: Initializing Engine...
+[2025.08.26-18.44.00:155][  0]LogStylusInput: Initializing StylusInput subsystem.
+[2025.08.26-18.44.00:155][  0]LogTedsSettings: UTedsSettingsEditorSubsystem::Initialize
+[2025.08.26-18.44.00:363][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.11.dll
+[2025.08.26-18.44.00:378][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.12.dll
+[2025.08.26-18.44.00:396][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled
+[2025.08.26-18.44.00:412][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2025.08.26-18.44.00:412][  0]LogInit: Texture streaming: Enabled
+[2025.08.26-18.44.00:420][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::StartSession ( APIServer = https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data. AppVersion = 5.6.1-44394996+++UE5+Release-5.6 )
+[2025.08.26-18.44.00:425][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2025.08.26-18.44.00:433][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2025.08.26-18.44.00:434][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2025.08.26-18.44.00:435][  0]LogAudio: Display: Audio Device Manager Initialized
+[2025.08.26-18.44.00:435][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2025.08.26-18.44.00:435][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.08.26-18.44.00:435][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.08.26-18.44.00:435][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.08.26-18.44.00:435][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.08.26-18.44.00:435][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.08.26-18.44.00:435][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.08.26-18.44.00:435][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.08.26-18.44.00:435][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.08.26-18.44.00:435][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.08.26-18.44.00:435][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.08.26-18.44.00:435][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.08.26-18.44.00:443][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.08.26-18.44.01:224][  0]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.08.26-18.44.01:224][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.08.26-18.44.01:225][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.08.26-18.44.01:225][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.08.26-18.44.01:227][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2025.08.26-18.44.01:227][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.08.26-18.44.01:231][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.08.26-18.44.01:231][  0]LogInit: FAudioDevice initialized with ID 1.
+[2025.08.26-18.44.01:231][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2025.08.26-18.44.01:231][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2025.08.26-18.44.01:231][  0]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 1
+[2025.08.26-18.44.01:237][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2025.08.26-18.44.01:247][  0]LogInit: Undo buffer set to 256 MB
+[2025.08.26-18.44.01:247][  0]LogInit: Transaction tracking system initialized
+[2025.08.26-18.44.01:348][  0]LocalizationService: Localization service is disabled
+[2025.08.26-18.44.01:817][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Content/' took 0.00s
+[2025.08.26-18.44.01:832][  0]LogStaticMesh: Display: Building static mesh Sphere (Required Memory Estimate: 1.522765 MB)...
+[2025.08.26-18.44.01:835][  0]LogStaticMesh: Display: Building static mesh Cone (Required Memory Estimate: 0.410497 MB)...
+[2025.08.26-18.44.01:835][  0]LogStaticMesh: Display: Building static mesh Cylinder (Required Memory Estimate: 0.815833 MB)...
+[2025.08.26-18.44.01:842][  0]LogStaticMesh: Display: Building static mesh Plane (Required Memory Estimate: 0.010915 MB)...
+[2025.08.26-18.44.01:843][  0]LogStaticMesh: Built static mesh [0.01s] /Engine/BasicShapes/Sphere.Sphere
+[2025.08.26-18.44.01:843][  0]LogStaticMesh: Built static mesh [0.01s] /Engine/BasicShapes/Cylinder.Cylinder
+[2025.08.26-18.44.01:853][  0]LogStaticMesh: Built static mesh [0.02s] /Engine/BasicShapes/Plane.Plane
+[2025.08.26-18.44.01:875][  0]LogStaticMesh: Built static mesh [0.04s] /Engine/BasicShapes/Cone.Cone
+[2025.08.26-18.44.01:905][  0]LogPython: Python enabled via CVar 'Engine.Python.IsEnabledByDefault'
+[2025.08.26-18.44.01:905][  0]LogPython: Using Python 3.11.8
+[2025.08.26-18.44.02:306][  0]LogPython: Display: No pip-enabled plugins with python dependencies found, skipping
+[2025.08.26-18.44.03:047][  0]LogRenderer: Requested compilation of Path Tracing RTPSOs (8 permutations).
+[2025.08.26-18.44.03:260][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2025.08.26-18.44.03:290][  0]LogEditorDataStorage: Initializing
+[2025.08.26-18.44.03:294][  0]LogEditorDataStorage: Initialized
+[2025.08.26-18.44.03:300][  0]LogCore: Display: GameplayInsights module auto-connecting to local trace server...
+[2025.08.26-18.44.03:421][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2025.08.26-18.44.03:430][  0]SourceControl: Revision control is disabled
+[2025.08.26-18.44.03:430][  0]LogUnrealEdMisc: Loading editor; pre map load, took 164.590
+[2025.08.26-18.44.03:433][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/OpenWorld.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.08.26-18.44.03:436][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2025.08.26-18.44.03:436][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.26-18.44.03:467][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.08.26-18.44.03:472][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.08.26-18.44.03:483][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_1'.
+[2025.08.26-18.44.03:483][  0]LogChaosDD: Creating Chaos Debug Draw Scene for world Untitled_1
+[2025.08.26-18.44.03:486][  0]LogWorldPartition: ULevel::OnLevelLoaded(Untitled_1)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2025.08.26-18.44.03:486][  0]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.08.26-18.44.03:486][  0]LogWorldPartition: UWorldPartition::Initialize : World = /Temp/Untitled_1.Untitled_1, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.08.26-18.44.03:503][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/IT/MHSUN7EJKDAAL8CVT31B9U which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:531][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/IT/MHSUN7EJKDAAL8CVT31B9U which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:613][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/7/OK/SEAN2F64CHO3LDZ0AH36XQ which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:615][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/8/MI/8FR6U8QWRABNNBFVHWOAWB which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:616][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/1N/5TOBNLYN25C967WMQGLJ9P which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:618][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/2W/ANLD5XYRRTSZ6KDZ50Y9DT which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:620][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/MJ/0VP5T9S3Z20RD9I6IIKQWQ which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:621][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/NZ/HCXCEB2P7AFAQJ2T4V3UNL which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:623][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/DH/CGZKHGOFN0M7BUZD4OUIKT which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:625][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/PC/3GY1SKTEHE8BAYQDGV30M1 which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:626][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/A/9Z/3O1J47LASQDXUEAV2FHEBM which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:628][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/1/K5/N01XJYY7OZ33C3E6ES5YS7 which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:629][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/1/NJ/82MLNKCEZ5S5X05ZNVY7W4 which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:630][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/7/P5/HN2K8ZKQ2F8MNDYTNDLO09 which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:632][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/7/SI/H1IC2U6KA5SQCGX13AM5C6 which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:634][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/RG/YU7NN5B9QJO6YF5ZTG8XC8 which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:636][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/E/SI/TI40SGT0J4D63RIQKYYMXM which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:637][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/5/3V/7BKY2RMHFQPXE7ZF1XJ0U9 which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:638][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/D/XC/NCQVN0MLHWDXR4YK17HE2J which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:640][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/XF/OQLKUQUBT4P1A33FIS1EJ6 which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:641][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/V8/DG1H4UL6K2RINN5XMKLRZA which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:643][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/FA/49ZR6ZHH8CF2C1JD77Q4ED which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:645][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/RT/MG15C0UXXQRV0JVWRQJISZ which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:646][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/7/VJ/9LQX4A09CNM8TATIA1T7NH which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:648][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/D/3G/YQB0MZ4557X9DVE0F0I8QE which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:650][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/8/E9/CFPXJNMC0901PIWNMJDXPL which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:652][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/9/9M/76V7GBFY28HAZWO7KGINSN which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:653][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/5R/L5HRF36RXYPBGTS0FD6B9B which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:655][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/40/UOXBXHJRWZ17KVKFQOUS39 which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:656][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/8/4E/6X2LF5M4GJACKSAZWHMMYZ which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:658][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/D/X7/S2RERO642Z9R49WW6ZE4KV which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:659][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/6/OO/2HJONZ0FWQR1O115ILCF4T which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:661][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/O6/RV7D86FR4JHF2UE90HW07M which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:662][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/P2/U7UGH6COIE3JDYT7437DSA which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:664][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/ML/11T6R7R7BS5ZZAEQ598G6Q which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:666][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/NP/19NSXDGR5APGMOCHXFR8UK which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:668][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/E/E8/NG6H540VO5IXS4SM1TGGKO which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:670][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/SB/0L7PJTYD6VY7AGOJQ4Q6LN which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:671][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/1/W7/WOIJ2EO34NCL8X2XRY0R2Q which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:673][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/37/ZC3EFDZU905UZGCPVNO6NL which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:674][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/DE/HPJ5D6HFXBQGR5KE6BFEOG which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:676][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/03/DBBOQZJVVEJB2VEJNQV1KH which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:678][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/D/YR/I017Y1HLOS635ZMP2TLHJX which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:679][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/9/OG/GRLOHBEDGLRDJ7ALVKWBR4 which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:681][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/AQ/T365MTIZ0AHKXDX3030T91 which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:682][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/ML/JJ2YHS3IUKXQ25T5AKH56J which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:684][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/5/C8/GKZM278JVRCZYA95405LY7 which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:685][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/7/7Y/G4WW8N40GC4GTU6EVBCMSZ which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:687][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/A/21/LIJ7LP5MUAYCOMJNBYVTPT which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:688][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/ST/K4A6UNOD93F0RPUUIEE5U1 which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:690][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/6/4N/DN4AWK66I9SFKU5KMAW740 which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:692][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/T0/3RL7RZ5V18GXKIZMFMJOUF which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:693][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/ZM/YHAGTLGWJ9T0072PI04NG3 which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:695][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/D/FH/YEQQOIJ3BNU7FZDRKVUZZO which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:697][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/7/MK/TEXD9D1LJ6YPCG6SL30VHN which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:698][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/D/02/XDM669NAU8NSRA6FV796CE which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:700][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/J0/IZ97T3DS224ZE5JNLUBNUV which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:701][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/D/R2/J0MMRZ3V2RDPN33J2S33ZJ which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:703][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/1/9D/YYFHNASO3MR7RH8G7M8YKS which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:704][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/IN/38GJJAUSXTLENXKEDEFGSU which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:706][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/5/37/H44BYI66ITH1M56VG9XQV4 which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:707][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/1/JS/VRUDS8N9VA2GUST0U3PQWG which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:709][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/8/10/J0H3C3FLUMY3GRTEATZH50 which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:711][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/C/I9/AJ6BGNL2CLVLI1RTL9FO2L which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:713][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/S4/XACO1KKMI66CBFJN9H2BRO which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:714][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/FS/YEUH0KPAUSFGKST2H2XGZJ which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:725][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.08.26-18.44.03:737][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.08.26-18.44.03:745][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.08.26-18.44.03:754][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [AppleTV]
+[2025.08.26-18.44.03:754][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [IOS]
+[2025.08.26-18.44.03:754][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2025.08.26-18.44.03:763][  0]LogDeviceProfileManager: Display: Deviceprofile None not found.
+[2025.08.26-18.44.03:974][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/7/OK/SEAN2F64CHO3LDZ0AH36XQ which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:974][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/8/MI/8FR6U8QWRABNNBFVHWOAWB which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:974][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/1N/5TOBNLYN25C967WMQGLJ9P which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:974][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/2W/ANLD5XYRRTSZ6KDZ50Y9DT which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:975][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/MJ/0VP5T9S3Z20RD9I6IIKQWQ which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:975][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/NZ/HCXCEB2P7AFAQJ2T4V3UNL which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:975][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/DH/CGZKHGOFN0M7BUZD4OUIKT which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:975][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/PC/3GY1SKTEHE8BAYQDGV30M1 which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:975][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/A/9Z/3O1J47LASQDXUEAV2FHEBM which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:975][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/1/K5/N01XJYY7OZ33C3E6ES5YS7 which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:975][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/1/NJ/82MLNKCEZ5S5X05ZNVY7W4 which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:975][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/7/P5/HN2K8ZKQ2F8MNDYTNDLO09 which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:975][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/7/SI/H1IC2U6KA5SQCGX13AM5C6 which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:976][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/RG/YU7NN5B9QJO6YF5ZTG8XC8 which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:976][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/E/SI/TI40SGT0J4D63RIQKYYMXM which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:976][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/5/3V/7BKY2RMHFQPXE7ZF1XJ0U9 which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:976][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/D/XC/NCQVN0MLHWDXR4YK17HE2J which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:976][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/XF/OQLKUQUBT4P1A33FIS1EJ6 which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:976][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/V8/DG1H4UL6K2RINN5XMKLRZA which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:976][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/FA/49ZR6ZHH8CF2C1JD77Q4ED which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:976][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/RT/MG15C0UXXQRV0JVWRQJISZ which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:977][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/7/VJ/9LQX4A09CNM8TATIA1T7NH which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:977][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/D/3G/YQB0MZ4557X9DVE0F0I8QE which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:977][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/8/E9/CFPXJNMC0901PIWNMJDXPL which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:977][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/9/9M/76V7GBFY28HAZWO7KGINSN which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:978][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/5R/L5HRF36RXYPBGTS0FD6B9B which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:978][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/40/UOXBXHJRWZ17KVKFQOUS39 which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:978][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/8/4E/6X2LF5M4GJACKSAZWHMMYZ which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:978][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/D/X7/S2RERO642Z9R49WW6ZE4KV which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:978][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/6/OO/2HJONZ0FWQR1O115ILCF4T which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:978][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/O6/RV7D86FR4JHF2UE90HW07M which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:978][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/P2/U7UGH6COIE3JDYT7437DSA which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:978][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/ML/11T6R7R7BS5ZZAEQ598G6Q which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:978][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/NP/19NSXDGR5APGMOCHXFR8UK which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:978][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/E/E8/NG6H540VO5IXS4SM1TGGKO which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:978][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/SB/0L7PJTYD6VY7AGOJQ4Q6LN which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:978][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/1/W7/WOIJ2EO34NCL8X2XRY0R2Q which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:978][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/37/ZC3EFDZU905UZGCPVNO6NL which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:978][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/DE/HPJ5D6HFXBQGR5KE6BFEOG which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:978][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/03/DBBOQZJVVEJB2VEJNQV1KH which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:979][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/D/YR/I017Y1HLOS635ZMP2TLHJX which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:979][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/9/OG/GRLOHBEDGLRDJ7ALVKWBR4 which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:979][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/AQ/T365MTIZ0AHKXDX3030T91 which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:979][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/ML/JJ2YHS3IUKXQ25T5AKH56J which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:979][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/5/C8/GKZM278JVRCZYA95405LY7 which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:979][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/7/7Y/G4WW8N40GC4GTU6EVBCMSZ which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:979][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/A/21/LIJ7LP5MUAYCOMJNBYVTPT which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:979][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/ST/K4A6UNOD93F0RPUUIEE5U1 which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:979][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/6/4N/DN4AWK66I9SFKU5KMAW740 which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:979][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/T0/3RL7RZ5V18GXKIZMFMJOUF which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:979][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/ZM/YHAGTLGWJ9T0072PI04NG3 which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:979][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/D/FH/YEQQOIJ3BNU7FZDRKVUZZO which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:979][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/7/MK/TEXD9D1LJ6YPCG6SL30VHN which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:979][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/D/02/XDM669NAU8NSRA6FV796CE which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:979][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/J0/IZ97T3DS224ZE5JNLUBNUV which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:979][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/D/R2/J0MMRZ3V2RDPN33J2S33ZJ which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:980][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/1/9D/YYFHNASO3MR7RH8G7M8YKS which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:980][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/IN/38GJJAUSXTLENXKEDEFGSU which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:980][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/5/37/H44BYI66ITH1M56VG9XQV4 which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:980][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/1/JS/VRUDS8N9VA2GUST0U3PQWG which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:980][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/8/10/J0H3C3FLUMY3GRTEATZH50 which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:980][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/C/I9/AJ6BGNL2CLVLI1RTL9FO2L which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:980][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/S4/XACO1KKMI66CBFJN9H2BRO which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.03:980][  0]LogAssetRegistry: SetPropertiesAndWait called on C:/Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Saved/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/FS/YEUH0KPAUSFGKST2H2XGZJ which is not in a mounted directory. Call will be ignored.
+[2025.08.26-18.44.04:063][  0]LogStaticMesh: Display: Building static mesh SM_SkySphere (Required Memory Estimate: 6.269349 MB)...
+[2025.08.26-18.44.04:321][  0]LogStaticMesh: Built static mesh [0.26s] /Engine/EngineSky/SM_SkySphere.SM_SkySphere
+[2025.08.26-18.44.04:349][  0]LogWorldPartition: Display: WorldPartition initialize took 863.635 ms
+[2025.08.26-18.44.04:686][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.08.26-18.44.04:719][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2025.08.26-18.44.04:719][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.08.26-18.44.04:721][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.985ms to complete.
+[2025.08.26-18.44.04:734][  0]LogUnrealEdMisc: Total Editor Startup Time, took 165.895
+[2025.08.26-18.44.04:738][  0]LogShaderCompilers: Display: ================================================
+[2025.08.26-18.44.04:738][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.08.26-18.44.04:738][  0]LogShaderCompilers: Display: Total job queries 18,174, among them cache hits 4,755 (26.16%), DDC hits 12,235 (67.32%), Duplicates 625 (3.44%)
+[2025.08.26-18.44.04:738][  0]LogShaderCompilers: Display: Tracking 12,794 distinct input hashes that result in 11,656 distinct outputs (91.11%)
+[2025.08.26-18.44.04:738][  0]LogShaderCompilers: Display: RAM used: 155.33 MiB of 1.60 GiB budget. Usage: 9.48%
+[2025.08.26-18.44.04:738][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.08.26-18.44.04:738][  0]LogShaderCompilers: Display: Shaders Compiled: 445
+[2025.08.26-18.44.04:738][  0]LogShaderCompilers: Display: Jobs assigned 535, completed 445 (83.18%)
+[2025.08.26-18.44.04:738][  0]LogShaderCompilers: Display: Average time worker was idle: 1.07 s
+[2025.08.26-18.44.04:738][  0]LogShaderCompilers: Display: Time job spent in pending queue: average 12.69 s, longest 66.36 s
+[2025.08.26-18.44.04:738][  0]LogShaderCompilers: Display: Job execution time: average 15.24 s, max 63.57 s
+[2025.08.26-18.44.04:738][  0]LogShaderCompilers: Display: Job life time (pending + execution): average 30.44 s, max 79.95
+[2025.08.26-18.44.04:738][  0]LogShaderCompilers: Display: Shader code size: total 7.93 MiB, numShaders 468, average 17.351 KiB, min 2.246 KiB, max 55.505 KiB
+[2025.08.26-18.44.04:738][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 145.54 s
+[2025.08.26-18.44.04:739][  0]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.04%
+[2025.08.26-18.44.04:739][  0]LogShaderCompilers: Display: Jobs were issued in 132 batches (only local compilation was used), average 4.05 jobs/batch
+[2025.08.26-18.44.04:739][  0]LogShaderCompilers: Display: Average processing rate: 3.06 jobs/sec
+[2025.08.26-18.44.04:739][  0]LogShaderCompilers: Display: Total thread time: 1,155.529 s
+[2025.08.26-18.44.04:739][  0]LogShaderCompilers: Display: Total thread preprocess time: 400.31 s
+[2025.08.26-18.44.04:739][  0]LogShaderCompilers: Display: Percentage time preprocessing: 34.64%
+[2025.08.26-18.44.04:739][  0]LogShaderCompilers: Display: Effective parallelization: 7.94 (times faster than compiling all shaders on one thread). Compare with number of workers: 9 - 0.882150
+[2025.08.26-18.44.04:739][  0]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.08.26-18.44.04:739][  0]LogShaderCompilers: Display:                                        FRayTracingLightingMS (compiled    1 times, average 40.20 sec, max 40.20 sec, min 40.20 sec)
+[2025.08.26-18.44.04:739][  0]LogShaderCompilers: Display:                                       FRayTracingSkyLightRGS (compiled   16 times, average 13.66 sec, max 39.61 sec, min 1.98 sec)
+[2025.08.26-18.44.04:739][  0]LogShaderCompilers: Display:                  FRayTracedTranslucencyHardwareRayTracingRGS (compiled    4 times, average 7.35 sec, max 16.20 sec, min 4.06 sec)
+[2025.08.26-18.44.04:739][  0]LogShaderCompilers: Display:                         FLumenVisualizeHardwareRayTracingRGS (compiled    8 times, average 6.86 sec, max 16.83 sec, min 4.52 sec)
+[2025.08.26-18.44.04:740][  0]LogShaderCompilers: Display:                        FLumenReflectionHardwareRayTracingRGS (compiled   80 times, average 5.74 sec, max 17.06 sec, min 4.00 sec)
+[2025.08.26-18.44.04:740][  0]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.08.26-18.44.04:740][  0]LogShaderCompilers: Display:                        FLumenReflectionHardwareRayTracingRGS - 39.76% of total time (compiled   80 times, average 5.74 sec, max 17.06 sec, min 4.00 sec)
+[2025.08.26-18.44.04:740][  0]LogShaderCompilers: Display:                                       FRayTracingSkyLightRGS - 18.91% of total time (compiled   16 times, average 13.66 sec, max 39.61 sec, min 1.98 sec)
+[2025.08.26-18.44.04:740][  0]LogShaderCompilers: Display:                         FLumenVisualizeHardwareRayTracingRGS - 4.75% of total time (compiled    8 times, average 6.86 sec, max 16.83 sec, min 4.52 sec)
+[2025.08.26-18.44.04:740][  0]LogShaderCompilers: Display:                                        FRayTracingLightingMS - 3.48% of total time (compiled    1 times, average 40.20 sec, max 40.20 sec, min 40.20 sec)
+[2025.08.26-18.44.04:740][  0]LogShaderCompilers: Display:                                                  FVelocityPS - 2.84% of total time (compiled   23 times, average 1.42 sec, max 2.09 sec, min 1.06 sec)
+[2025.08.26-18.44.04:740][  0]LogShaderCompilers: Display: === Material stats ===
+[2025.08.26-18.44.04:740][  0]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.08.26-18.44.04:740][  0]LogShaderCompilers: Display: Materials Translated:    141
+[2025.08.26-18.44.04:740][  0]LogShaderCompilers: Display: Material Total Translate Time: 0.17 s
+[2025.08.26-18.44.04:741][  0]LogShaderCompilers: Display: Material Translation Only: 0.06 s (35%)
+[2025.08.26-18.44.04:741][  0]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.08.26-18.44.04:741][  0]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.08.26-18.44.04:741][  0]LogShaderCompilers: Display: ================================================
+[2025.08.26-18.44.04:891][  0]LogPlacementMode: Display: The Asset Registry is not yet fully loaded so some placeable classes might be missing.
+[2025.08.26-18.44.05:447][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.26-18.44.05:707][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.26-18.44.05:967][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.26-18.44.06:256][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.08.26-18.44.06:708][  0]LogPakFile: Initializing PakPlatformFile
+[2025.08.26-18.44.06:709][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2025.08.26-18.44.06:710][  0]LogPakFile: Initializing PakPlatformFile
+[2025.08.26-18.44.06:710][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2025.08.26-18.44.06:711][  0]LogPakFile: Initializing PakPlatformFile
+[2025.08.26-18.44.06:712][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2025.08.26-18.44.06:712][  0]LogPakFile: Initializing PakPlatformFile
+[2025.08.26-18.44.06:713][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2025.08.26-18.44.06:715][  0]LogPakFile: Initializing PakPlatformFile
+[2025.08.26-18.44.06:715][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2025.08.26-18.44.06:716][  0]LogPakFile: Initializing PakPlatformFile
+[2025.08.26-18.44.06:716][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2025.08.26-18.44.06:717][  0]LogPakFile: Initializing PakPlatformFile
+[2025.08.26-18.44.06:719][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2025.08.26-18.44.06:719][  0]LogPakFile: Initializing PakPlatformFile
+[2025.08.26-18.44.06:719][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2025.08.26-18.44.06:720][  0]LogPakFile: Initializing PakPlatformFile
+[2025.08.26-18.44.06:721][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2025.08.26-18.44.06:721][  0]LogPakFile: Initializing PakPlatformFile
+[2025.08.26-18.44.06:722][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.6/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2025.08.26-18.44.09:720][  0]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2025.08.26-18.44.09:740][  0]LogSlate: Took 0.010877 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2025.08.26-18.44.09:753][  0]LogSlate: Took 0.010484 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2025.08.26-18.44.10:129][  0]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.08.26-18.44.12:436][  0]LogPSOHitching: Encountered 50 PSO creation hitches so far (5 graphics, 45 compute). 0 of them were precached.
+[2025.08.26-18.44.17:918][  0]LogPSOHitching: Encountered 100 PSO creation hitches so far (5 graphics, 95 compute). 0 of them were precached.
+[2025.08.26-18.44.22:140][  0]LogPSOHitching: Encountered 150 PSO creation hitches so far (14 graphics, 136 compute). 0 of them were precached.
+[2025.08.26-18.44.25:371][  0]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2025.08.26-18.44.25:767][  0]LogD3D12RHI: Waited for PSO creation for 100.000000ms
+[2025.08.26-18.44.26:468][  0]LogStall: Startup...
+[2025.08.26-18.44.26:483][  0]LogStall: Startup complete.
+[2025.08.26-18.44.26:495][  0]LogLoad: (Engine Initialization) Total time: 187.66 seconds
+[2025.08.26-18.44.26:993][  0]LogShaderCompilers: Display: ================================================
+[2025.08.26-18.44.26:993][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.08.26-18.44.26:993][  0]LogShaderCompilers: Display: Total job queries 18,221, among them cache hits 4,756 (26.10%), DDC hits 12,248 (67.22%), Duplicates 635 (3.48%)
+[2025.08.26-18.44.26:993][  0]LogShaderCompilers: Display: Tracking 12,830 distinct input hashes that result in 11,663 distinct outputs (90.90%)
+[2025.08.26-18.44.26:993][  0]LogShaderCompilers: Display: RAM used: 155.46 MiB of 1.60 GiB budget. Usage: 9.49%
+[2025.08.26-18.44.26:993][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.08.26-18.44.26:993][  0]LogShaderCompilers: Display: Shaders Compiled: 445
+[2025.08.26-18.44.26:993][  0]LogShaderCompilers: Display: Jobs assigned 535, completed 445 (83.18%)
+[2025.08.26-18.44.26:993][  0]LogShaderCompilers: Display: Average time worker was idle: 1.07 s
+[2025.08.26-18.44.26:993][  0]LogShaderCompilers: Display: Time job spent in pending queue: average 12.69 s, longest 66.36 s
+[2025.08.26-18.44.26:994][  0]LogShaderCompilers: Display: Job execution time: average 15.24 s, max 63.57 s
+[2025.08.26-18.44.26:994][  0]LogShaderCompilers: Display: Job life time (pending + execution): average 30.44 s, max 79.95
+[2025.08.26-18.44.26:994][  0]LogShaderCompilers: Display: Shader code size: total 7.93 MiB, numShaders 468, average 17.351 KiB, min 2.246 KiB, max 55.505 KiB
+[2025.08.26-18.44.26:994][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 145.54 s
+[2025.08.26-18.44.26:994][  0]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.04%
+[2025.08.26-18.44.26:994][  0]LogShaderCompilers: Display: Jobs were issued in 132 batches (only local compilation was used), average 4.05 jobs/batch
+[2025.08.26-18.44.26:994][  0]LogShaderCompilers: Display: Average processing rate: 3.06 jobs/sec
+[2025.08.26-18.44.26:994][  0]LogShaderCompilers: Display: Total thread time: 1,155.529 s
+[2025.08.26-18.44.26:994][  0]LogShaderCompilers: Display: Total thread preprocess time: 401.42 s
+[2025.08.26-18.44.26:994][  0]LogShaderCompilers: Display: Percentage time preprocessing: 34.74%
+[2025.08.26-18.44.26:994][  0]LogShaderCompilers: Display: Effective parallelization: 7.94 (times faster than compiling all shaders on one thread). Compare with number of workers: 9 - 0.882150
+[2025.08.26-18.44.26:994][  0]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.08.26-18.44.26:994][  0]LogShaderCompilers: Display:                                        FRayTracingLightingMS (compiled    1 times, average 40.20 sec, max 40.20 sec, min 40.20 sec)
+[2025.08.26-18.44.26:994][  0]LogShaderCompilers: Display:                                       FRayTracingSkyLightRGS (compiled   16 times, average 13.66 sec, max 39.61 sec, min 1.98 sec)
+[2025.08.26-18.44.26:994][  0]LogShaderCompilers: Display:                  FRayTracedTranslucencyHardwareRayTracingRGS (compiled    4 times, average 7.35 sec, max 16.20 sec, min 4.06 sec)
+[2025.08.26-18.44.26:994][  0]LogShaderCompilers: Display:                         FLumenVisualizeHardwareRayTracingRGS (compiled    8 times, average 6.86 sec, max 16.83 sec, min 4.52 sec)
+[2025.08.26-18.44.26:994][  0]LogShaderCompilers: Display:                        FLumenReflectionHardwareRayTracingRGS (compiled   80 times, average 5.74 sec, max 17.06 sec, min 4.00 sec)
+[2025.08.26-18.44.26:994][  0]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.08.26-18.44.26:994][  0]LogShaderCompilers: Display:                        FLumenReflectionHardwareRayTracingRGS - 39.76% of total time (compiled   80 times, average 5.74 sec, max 17.06 sec, min 4.00 sec)
+[2025.08.26-18.44.26:995][  0]LogShaderCompilers: Display:                                       FRayTracingSkyLightRGS - 18.91% of total time (compiled   16 times, average 13.66 sec, max 39.61 sec, min 1.98 sec)
+[2025.08.26-18.44.26:995][  0]LogShaderCompilers: Display:                         FLumenVisualizeHardwareRayTracingRGS - 4.75% of total time (compiled    8 times, average 6.86 sec, max 16.83 sec, min 4.52 sec)
+[2025.08.26-18.44.26:995][  0]LogShaderCompilers: Display:                                        FRayTracingLightingMS - 3.48% of total time (compiled    1 times, average 40.20 sec, max 40.20 sec, min 40.20 sec)
+[2025.08.26-18.44.26:995][  0]LogShaderCompilers: Display:                                                  FVelocityPS - 2.84% of total time (compiled   23 times, average 1.42 sec, max 2.09 sec, min 1.06 sec)
+[2025.08.26-18.44.26:995][  0]LogShaderCompilers: Display: === Material stats ===
+[2025.08.26-18.44.26:995][  0]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.08.26-18.44.26:995][  0]LogShaderCompilers: Display: Materials Translated:    142
+[2025.08.26-18.44.26:995][  0]LogShaderCompilers: Display: Material Total Translate Time: 0.18 s
+[2025.08.26-18.44.26:995][  0]LogShaderCompilers: Display: Material Translation Only: 0.06 s (36%)
+[2025.08.26-18.44.26:995][  0]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.08.26-18.44.26:995][  0]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.08.26-18.44.26:995][  0]LogShaderCompilers: Display: ================================================
+[2025.08.26-18.44.27:349][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2025.08.26-18.44.27:349][  0]LogCsvProfiler: Display: Metadata set : streamingpoolsizemb="1000"
+[2025.08.26-18.44.27:961][  0]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2025.08.26-18.44.28:444][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.08.26-18.44.28:447][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... started...
+[2025.08.26-18.44.29:793][  0]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
+
+[2025.08.26-18.44.29:801][  0]LogPython: Display: Running start-up script C:/Program Files/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 1.35 sec
+[2025.08.26-18.44.31:451][  0]LogD3D12RHI: Compiled PathTracingMainRG for RTPSO in 28119.57 ms.
+[2025.08.26-18.44.34:840][  0]LogD3D12RHI: Compiled PathTracingMainRG for RTPSO in 31796.91 ms.
+[2025.08.26-18.44.36:846][  1]LogAssetRegistry: Display: Triggering cache save on discovery complete
+[2025.08.26-18.44.37:124][  1]LogMeshUtilities: Finished distance field build in 1.5s - 21x7x14 sparse distance field, 0.0Mb total, 0.0Mb always loaded, 100% occupied, 0 triangles, MatineeCam_SM
+[2025.08.26-18.44.37:494][  1]LogStreaming: Display: FlushAsyncLoading(410,411,412,413,414,415,416,417,418,419,420,421,422,423,424,425,426,427,428,429,430,431,432,433,434,435,436,437,438,439,440,441,442,443,444,445,446,447,448,449,450,451,452,453,454,455,456,457,458,459,460,461,462,463,464,465,466,467,468,469,470,471,472,473): 64 QueuedPackages, 0 AsyncPackages
+[2025.08.26-18.44.37:564][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_5 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.37:564][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.37:565][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.37:578][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/5K/CE7OWOIDJIL69HHH3KR4JJ) ...
+[2025.08.26-18.44.37:579][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/5K/CE7OWOIDJIL69HHH3KR4JJ.StaticMesh_HLOD0_Instancing_5
+[2025.08.26-18.44.37:597][  1]LogStaticMesh: Built static mesh [0.03s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/BY/3VWWK6AVEYXW9NSZV4QD8O.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.37:597][  1]LogStaticMesh: Built static mesh [0.03s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/5S/7KG1M6Z4DAY7L4W6MCJF27.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.37:606][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/5S/7KG1M6Z4DAY7L4W6MCJF27) ...
+[2025.08.26-18.44.37:623][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/BY/3VWWK6AVEYXW9NSZV4QD8O) ...
+[2025.08.26-18.44.37:703][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.37:703][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.37:714][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/KN/UD3G3TJ9US3TGIJTNAMJMZ) ...
+[2025.08.26-18.44.37:717][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/KN/UD3G3TJ9US3TGIJTNAMJMZ.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.37:730][  1]LogStaticMesh: Built static mesh [0.03s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/VP/TFSQO5ISVRSGN8PURAZRAC.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.37:732][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.37:732][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.37:738][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/O3/WPW7CIF61XJVNXEFKBLWZN) ...
+[2025.08.26-18.44.37:748][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/O3/WPW7CIF61XJVNXEFKBLWZN.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.37:762][  1]LogStaticMesh: Built static mesh [0.03s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/1/27/Y7IFHWJO5J7WX6YC6J5N8M.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.37:769][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/0/VP/TFSQO5ISVRSGN8PURAZRAC) ...
+[2025.08.26-18.44.37:867][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.37:867][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.37:874][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/1/4G/XQMADMPIF27EYUX6I1GTO8) ...
+[2025.08.26-18.44.37:883][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/1/4G/XQMADMPIF27EYUX6I1GTO8.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.37:898][  1]LogStaticMesh: Built static mesh [0.03s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/1/L7/D6T95MI6OZRA70MGB00GTO.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.37:900][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.37:904][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/1/KH/TF80JEHHCZ7LCUGGAY96O6) ...
+[2025.08.26-18.44.37:918][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/1/KH/TF80JEHHCZ7LCUGGAY96O6.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.37:918][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.37:938][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/1/ZE/CG8IV7D3WBMHLQ6603TTIN) ...
+[2025.08.26-18.44.37:946][  1]LogStaticMesh: Built static mesh [0.03s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/1/ZE/CG8IV7D3WBMHLQ6603TTIN.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.37:964][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.37:964][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.37:974][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/CH/NXO39JTGOM7IJ8IAANES8J) ...
+[2025.08.26-18.44.37:980][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/CH/NXO39JTGOM7IJ8IAANES8J.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.37:993][  1]LogStaticMesh: Built static mesh [0.03s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/GH/HNSUWP8J18J3DNWN1LPW2V.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.37:999][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.38:000][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/EN/UXSY68YATHVWIP3MCFBSRN) ...
+[2025.08.26-18.44.38:016][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/EN/UXSY68YATHVWIP3MCFBSRN.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.38:016][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.38:037][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/TQ/ZTXE1THS1FHPKQYJWEVTF1) ...
+[2025.08.26-18.44.38:044][  1]LogStaticMesh: Built static mesh [0.03s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/TQ/ZTXE1THS1FHPKQYJWEVTF1.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.38:066][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.38:066][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.38:075][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/US/YUBYQ1LC69AYEHAQJXQ9LS) ...
+[2025.08.26-18.44.38:081][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/US/YUBYQ1LC69AYEHAQJXQ9LS.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.38:093][  1]LogStaticMesh: Built static mesh [0.03s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/6L/SFJTJ7A2NHMW798CZKNG9F.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.38:102][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/XD/80DOKOIVDWN29O7YL417GZ) ...
+[2025.08.26-18.44.38:108][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.38:123][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/2/XD/80DOKOIVDWN29O7YL417GZ.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.38:128][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.38:145][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/BX/4SG4FMH15YA0SVXI9O6643.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.38:160][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.38:161][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.38:166][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/GD/I9ZBXPRHNR38HFE4CGO97F) ...
+[2025.08.26-18.44.38:177][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/GD/I9ZBXPRHNR38HFE4CGO97F.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.38:189][  1]LogStaticMesh: Built static mesh [0.03s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/Z1/B4WSZCAN5NCW6K68K1C1JN.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.38:192][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.38:197][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/NN/XOZPH9N4V9E7YMF75PLFY5) ...
+[2025.08.26-18.44.38:206][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/3/NN/XOZPH9N4V9E7YMF75PLFY5.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.38:211][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.38:227][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/1U/XR77NRVSKIGOSP4YVKP3NF) ...
+[2025.08.26-18.44.38:228][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/1U/XR77NRVSKIGOSP4YVKP3NF.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.38:233][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.38:249][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/CI/GUD4QJTP4O4BIRXI49O2Z3) ...
+[2025.08.26-18.44.38:250][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.38:250][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/GQ/1BZWR5HPTCP13J5TGSIKZF.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.38:280][  1]LogStaticMesh: Built static mesh [0.03s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/CI/GUD4QJTP4O4BIRXI49O2Z3.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.38:293][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.38:293][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.38:304][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/L4/7CG5YH1S7YPZD02MVZK1JJ) ...
+[2025.08.26-18.44.38:310][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/L4/7CG5YH1S7YPZD02MVZK1JJ.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.38:322][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.38:326][  1]LogStaticMesh: Built static mesh [0.03s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/XH/IO72E5L6ZIXCPCY5ZV1LFB.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.38:329][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/RX/WYTIO89IYQQD4U5E09826I) ...
+[2025.08.26-18.44.38:339][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/4/RX/WYTIO89IYQQD4U5E09826I.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.38:339][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.38:359][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/5/23/2FOTWI9AYF007OAQ81AIHY) ...
+[2025.08.26-18.44.38:373][  1]LogStaticMesh: Built static mesh [0.03s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/5/23/2FOTWI9AYF007OAQ81AIHY.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.38:383][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.38:383][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.38:397][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/5/HV/8VPJR9FG4DY9IWHOO36TXC) ...
+[2025.08.26-18.44.38:400][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/5/HV/8VPJR9FG4DY9IWHOO36TXC.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.38:412][  1]LogStaticMesh: Built static mesh [0.03s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/6/EI/M2ZU794Z9KQ8NTXCDK9OW9.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.38:417][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.38:420][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/5/S1/MGYFJ10ERA3LBZ2NVR21ZS) ...
+[2025.08.26-18.44.38:433][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/5/S1/MGYFJ10ERA3LBZ2NVR21ZS.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.38:433][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.38:454][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/6/I5/8LF7F9DUELVHUUAUULV8S7) ...
+[2025.08.26-18.44.38:464][  1]LogStaticMesh: Built static mesh [0.03s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/6/I5/8LF7F9DUELVHUUAUULV8S7.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.38:479][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.38:479][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.38:489][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/6/SL/5E8AUJWD53HZZ1JZDPXMN5) ...
+[2025.08.26-18.44.38:494][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/6/SL/5E8AUJWD53HZZ1JZDPXMN5.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.38:508][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.38:511][  1]LogStaticMesh: Built static mesh [0.03s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/7/ED/2PX2Y3KHHIEMEGAZ5FDODJ.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.38:516][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/7/24/4YD3X92ICGPSMS70GKHT4Y) ...
+[2025.08.26-18.44.38:526][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/7/24/4YD3X92ICGPSMS70GKHT4Y.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.38:530][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.38:546][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/7/ED/2PX2Y3KHHIEMEGAZ5FDODJ) ...
+[2025.08.26-18.44.38:547][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/7/ED/OQA1ZBDPHZ8CO1PTJ6DYR7.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.38:554][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.38:554][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.38:569][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/7/P9/RHBSJUA9AR5R6PSGE6GSKS) ...
+[2025.08.26-18.44.38:570][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/7/P9/RHBSJUA9AR5R6PSGE6GSKS.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.38:582][  1]LogStaticMesh: Built static mesh [0.03s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/7/YB/Z3BCR01JF9KCFXCU4JNRPX.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.39:434][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.39:434][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.39:440][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/7/YX/2HMYI4TTW5FS9ZJCVXXLUJ) ...
+[2025.08.26-18.44.39:452][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/7/YX/2HMYI4TTW5FS9ZJCVXXLUJ.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.39:463][  1]LogStaticMesh: Built static mesh [0.03s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/8/3M/N9P6ZW1I4HD8A397EUC3YK.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.39:468][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.39:474][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/7/ZC/44F80QYMSROPN0PXL8W7DI) ...
+[2025.08.26-18.44.39:483][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/7/ZC/44F80QYMSROPN0PXL8W7DI.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.39:484][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.39:504][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/8/ZC/1HI0WPWA2RUF32WFUFAFSA) ...
+[2025.08.26-18.44.39:514][  1]LogStaticMesh: Built static mesh [0.03s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/8/ZC/1HI0WPWA2RUF32WFUFAFSA.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.39:530][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.39:530][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.39:542][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/9/LH/00MBAVOF59YWK5C1K0L6QD) ...
+[2025.08.26-18.44.39:545][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/9/LH/00MBAVOF59YWK5C1K0L6QD.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.39:559][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.39:560][  1]LogStaticMesh: Built static mesh [0.03s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/GZ/56B0AQM0TFG4O338HPSUV0.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.39:560][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.39:566][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/1Y/9FNLWIO8XRBTLI1FIUODLB) ...
+[2025.08.26-18.44.39:575][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/1Y/9FNLWIO8XRBTLI1FIUODLB.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.39:589][  1]LogStaticMesh: Built static mesh [0.03s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/NS/S7UX3VHWK2FE7F1VTGY4Q4.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.39:614][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.39:615][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.39:619][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/RA/OXSUFS9AD8OBAN9ORA0KHV) ...
+[2025.08.26-18.44.39:630][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/RA/OXSUFS9AD8OBAN9ORA0KHV.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.39:646][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.39:647][  1]LogStaticMesh: Built static mesh [0.03s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/V4/HDYW8NQLCV8S1NG7EBC73D.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.39:650][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/UU/FSLVQWEHZHSYDLFAI1UF1I) ...
+[2025.08.26-18.44.39:650][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.39:663][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/UU/FSLVQWEHZHSYDLFAI1UF1I.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.39:679][  1]LogStaticMesh: Built static mesh [0.03s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/YN/HZS8TMI8YA3C3PGKQSDH5W.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.39:684][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/B/V4/HDYW8NQLCV8S1NG7EBC73D) ...
+[2025.08.26-18.44.39:702][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.39:702][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.39:716][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/C/CZ/OANN28HN8QI6DGM822TLEF) ...
+[2025.08.26-18.44.39:717][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/C/CZ/OANN28HN8QI6DGM822TLEF.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.39:730][  1]LogStaticMesh: Built static mesh [0.03s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/C/OT/59JQU6VL27FICKT2N8ROJS.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.39:730][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.39:738][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/C/K6/OQ1ND4KJYR3CXOLQ04FQD3) ...
+[2025.08.26-18.44.39:742][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.39:757][  1]LogStaticMesh: Built static mesh [0.03s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/C/K6/OQ1ND4KJYR3CXOLQ04FQD3.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.39:761][  1]LogStaticMesh: Built static mesh [0.03s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/C/OY/YZHBAUXS47ZBW0KQJ7IQ60.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.39:767][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.39:768][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.39:782][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/C/RA/B67YQHSPFIOZSRSA5UPH7F) ...
+[2025.08.26-18.44.39:782][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/C/RA/B67YQHSPFIOZSRSA5UPH7F.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.39:786][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/D/NU/FDDZ9WSY9MW9WII6FVJKI9.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.39:824][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.39:825][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.39:829][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/D/EE/3Z1KFDTN295GSTNSTMWV8B) ...
+[2025.08.26-18.44.39:840][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/D/EE/3Z1KFDTN295GSTNSTMWV8B.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.39:853][  1]LogStaticMesh: Built static mesh [0.03s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/D/YA/84Y48Q6J7MAEPYO91F2W3X.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.39:857][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.39:861][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/D/WE/9DAOSERJEIV3XKZ25XY8S4) ...
+[2025.08.26-18.44.39:874][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/D/WE/9DAOSERJEIV3XKZ25XY8S4.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.39:877][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.39:896][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/E/ZI/FCZX8TQ0MTDRVT82RD635B) ...
+[2025.08.26-18.44.39:910][  1]LogStaticMesh: Built static mesh [0.04s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/E/ZI/FCZX8TQ0MTDRVT82RD635B.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.39:927][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.39:927][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.39:934][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/F/0E/C0GHL79EJZYDUEAPIYALYW) ...
+[2025.08.26-18.44.39:942][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/F/0E/C0GHL79EJZYDUEAPIYALYW.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.39:954][  1]LogStaticMesh: Built static mesh [0.03s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/F/58/HVLDTOB47BH89LD9IMV2MQ.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.39:956][  1]LogStaticMesh: Display: Building static mesh StaticMesh_HLOD0_Instancing_3 (Required Memory Estimate: 2.498201 MB)...
+[2025.08.26-18.44.39:963][  1]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/F/47/LLGNVOXM8XJU38OS1ZC4E7) ...
+[2025.08.26-18.44.39:971][  1]LogStaticMesh: Built static mesh [0.02s] /Temp/Untitled_1_InstanceOf_/Engine/__ExternalActors__/Maps/Templates/OpenWorld/F/47/LLGNVOXM8XJU38OS1ZC4E7.StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.44.42:342][  1]LogMeshUtilities: Finished distance field build in 6.4s - 49x49x49 sparse distance field, 0.2Mb total, 0.0Mb always loaded, 92% occupied, 0 triangles, EditorCube
+[2025.08.26-18.44.43:028][  2]LogAssetRegistry: AssetRegistryGather time 30.1098s: AssetDataDiscovery 0.1878s, AssetDataGather 29.8410s, StoreResults 0.0810s. Wall time 199.2540s.
+	NumCachedDirectories 0. NumUncachedDirectories 1451. NumCachedFiles 0. NumUncachedFiles 7376.
+	BackgroundTickInterruptions 0.
+[2025.08.26-18.44.43:062][  2]LogPlacementMode: Display: The Asset Registry is done with its initial scan, the list of placeable classes has been updated.
+[2025.08.26-18.44.43:077][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000001 seconds (updated 0 objects)
+[2025.08.26-18.44.43:096][  2]LogSourceControl: Uncontrolled asset discovery started...
+[2025.08.26-18.44.43:132][  2]LogEOSSDK: LogEOS: SDK Config Platform Update Request Successful, Time: 43.353210
+[2025.08.26-18.44.43:134][  2]LogEOSSDK: LogEOSAnalytics: EOS SDK Analytics disabled for route [1].
+[2025.08.26-18.44.43:135][  2]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 43.563160
+[2025.08.26-18.44.46:427][  3]LogD3D12RHI: Compiled PathTracingMainRG for RTPSO in 43388.01 ms.
+[2025.08.26-18.44.46:919][  3]LogPSOHitching: Encountered 200 PSO creation hitches so far (40 graphics, 160 compute). 0 of them were precached.
+[2025.08.26-18.44.47:884][  3]LogSourceControl: Uncontrolled asset discovery finished in 4.787122 seconds (Found 7352 uncontrolled assets)
+[2025.08.26-18.44.49:024][  4]LogAssetRegistry: Display: Asset registry cache written as 66.6 MiB to ../../../../../../Users/mmaub/OneDrive/Desktop/UnrealTest/Unrealtest/Intermediate/CachedAssetRegistry_*.bin
+[2025.08.26-18.44.51:146][  5]LogPSOHitching: Encountered 250 PSO creation hitches so far (58 graphics, 192 compute). 0 of them were precached.
+[2025.08.26-18.44.51:841][  6]LogEOSSDK: LogEOSAnalytics: Start Session (User: ...)
+[2025.08.26-18.44.52:034][  9]LogEOSSDK: LogEOS: SDK Config Product Update Request Successful, Time: 52.382858
+[2025.08.26-18.44.52:038][  9]LogEOSSDK: LogEOS: SDK Config Data - Watermark: 1327463752
+[2025.08.26-18.44.52:038][  9]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 52.382858, Update Interval: 305.771667
+[2025.08.26-18.44.52:475][ 23]LogMeshUtilities: Finished distance field build in 15.6s - 63x63x63 sparse distance field, 0.4Mb total, 0.0Mb always loaded, 84% occupied, 0 triangles, EditorSphere
+[2025.08.26-18.44.53:238][ 62]LogMeshUtilities: Finished distance field build in 17.6s - 63x63x63 sparse distance field, 0.4Mb total, 0.0Mb always loaded, 84% occupied, 0 triangles, Sphere
+[2025.08.26-18.44.54:788][148]LogD3D12RHI: Compiled PathTracingMainRG for RTPSO in 51750.11 ms.
+[2025.08.26-18.44.58:488][150]LogMeshUtilities: Finished distance field build in 1.3s - 35x35x49 sparse distance field, 0.1Mb total, 0.0Mb always loaded, 98% occupied, 0 triangles, EditorCylinder
+[2025.08.26-18.44.59:675][153]LogMeshUtilities: Finished distance field build in 19.7s - 126x126x126 sparse distance field, 1.9Mb total, 0.1Mb always loaded, 52% occupied, 0 triangles, EditorSkySphere
+[2025.08.26-18.45.04:742][439]LogMeshUtilities: Finished mesh card build in 3.7s RotationHandleFull tris:0 surfels:472
+[2025.08.26-18.45.04:792][441]LogMeshUtilities: Finished distance field build in 3.7s - 7x21x21 sparse distance field, 0.0Mb total, 0.0Mb always loaded, 100% occupied, 0 triangles, SM_MediaPlateScreen
+[2025.08.26-18.45.06:761][550]LogMeshUtilities: Finished distance field build in 1.0s - 42x42x42 sparse distance field, 0.1Mb total, 0.0Mb always loaded, 83% occupied, 0 triangles, Cone
+[2025.08.26-18.45.11:838][829]LogD3D12RHI: Compiled PathTracingMainRG for RTPSO in 68456.45 ms.
+[2025.08.26-18.45.14:221][959]LogMeshUtilities: Finished distance field build in 2.4s - 126x126x7 sparse distance field, 0.2Mb total, 0.0Mb always loaded, 100% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_5
+[2025.08.26-18.45.14:837][993]LogD3D12RHI: Compiled PathTracingMainRG for RTPSO in 71795.90 ms.
+[2025.08.26-18.45.15:392][ 23]LogMeshUtilities: Finished distance field build in 9.2s - 126x126x126 sparse distance field, 1.9Mb total, 0.1Mb always loaded, 52% occupied, 0 triangles, SM_SkySphere
+[2025.08.26-18.45.19:453][250]LogMeshUtilities: Finished distance field build in 7.7s - 126x126x126 sparse distance field, 1.9Mb total, 0.1Mb always loaded, 53% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.45.21:651][373]LogD3D12RHI: Compiled PathTracingMainRG for RTPSO in 78318.27 ms.
+[2025.08.26-18.45.22:231][406]LogMeshUtilities: Finished distance field build in 4.6s - 126x126x126 sparse distance field, 1.5Mb total, 0.1Mb always loaded, 42% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.45.27:020][674]LogMeshUtilities: Finished distance field build in 6.0s - 126x126x126 sparse distance field, 2.3Mb total, 0.1Mb always loaded, 67% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.45.30:490][870]LogMeshUtilities: Finished distance field build in 5.6s - 126x126x126 sparse distance field, 1.6Mb total, 0.1Mb always loaded, 45% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
+[2025.08.26-18.45.34:737][105]LogMeshUtilities: Finished distance field build in 9.9s - 126x126x126 sparse distance field, 1.8Mb total, 0.1Mb always loaded, 50% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
